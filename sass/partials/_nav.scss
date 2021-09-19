@@ -1,0 +1,39 @@
+.navbar {
+  background: repeating-linear-gradient(
+    to right,
+    #b4b4b4,
+    #b4b4b4 2px,
+    transparent 2px,
+    transparent 16px
+  );
+}
+
+.navbar-brand {
+  display: block;
+
+  img {
+    max-height: 160px;
+    margin-left: 20px;
+
+    &:hover {
+      box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+.nav-item {
+  margin: 10px;
+  a {
+    font-weight: 500;
+  }
+
+  &:hover {
+    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border: 1px solid $primary;
+  color: $primary;
+  background-color: $white;
+}

@@ -1,0 +1,1 @@
+export const baseUrl = "http://daliasdesign.com/camellia/wp-json/";

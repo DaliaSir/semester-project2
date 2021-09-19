@@ -1,0 +1,71 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 75px 0 75px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #dddddd,
+    #dddddd 2px,
+    transparent 2px,
+    transparent 16px
+  );
+}
+
+.footer-company p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footer-icons {
+  a {
+    font-size: 2rem;
+    color: #000000;
+  }
+
+  i {
+    padding: 10px 20px 10px 0;
+    cursor: pointer;
+  }
+}
+
+.footer-links {
+  h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
+.footer-links a:hover,
+.footer-icons i:hover {
+  color: $colour-accent;
+}
+
+.footer-copy {
+  width: 100vw;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: $primary;
+  color: $white;
+  padding: 20px 10px 4px 10px;
+}
+
+@media (min-width: 768px) {
+  .footer .row {
+    padding: 20px;
+  }
+
+  .footer-links {
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,32 @@
+h1,
+h2,
+h3 {
+  font-family: $font-headings;
+}
+
+.hero-container h1 {
+  font-size: 3rem;
+}
+
+.subscribe {
+  h3 {
+    font-size: 2rem;
+  }
+
+  .subscribe-discount {
+    color: $colour-accent;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 870px) {
+  .hero-container h1 {
+    font-size: 4rem;
+  }
+
+  .featured h2,
+  .subscribe h3 {
+    font-size: 3rem;
+  }
+}
